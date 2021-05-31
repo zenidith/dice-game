@@ -12,3 +12,17 @@ const message = document.getElementById("message")
 const rollBtn = document.getElementById("rollBtn")
 const resetBtn = document.getElementById("resetBtn")
 
+// logging out a random number between 1-6 when the rollBtn is clicked
+
+rollBtn.addEventListener("click", function() {
+    const randomNumber =  Math.floor(Math.random() * 6) + 1
+    console.log(randomNumber)
+
+if (player1Turn) {
+    console.log("Player 1 rolled " + randomNumber)
+} else {
+    console.log("Player 2 rolled " + randomNumber)
+}
+player1Turn = !player1Turn
+
+})
