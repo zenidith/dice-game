@@ -14,7 +14,7 @@ const resetBtn = document.getElementById("resetBtn")
 
 function showDisplayButton() {
     rollBtn.style.display = "none"
-    resetBtn.style.display = "block"
+    resetBtn.style.display = "inline-block"
 }
 
 // logging out a random number between 1-6 when the rollBtn is clicked
@@ -67,7 +67,7 @@ function reset() {
     player2Score = 0
     player1Turn = true
     resetBtn.style.display = "none"
-    rollBtn.style.display = "block"
+    rollBtn.style.display = "inline-block"
     player2Dice.classList.remove("active")
     player1Dice.classList.add("active")
 }
