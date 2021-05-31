@@ -12,6 +12,11 @@ const message = document.getElementById("message")
 const rollBtn = document.getElementById("rollBtn")
 const resetBtn = document.getElementById("resetBtn")
 
+function showDisplayButton() {
+    rollBtn.style.display = "none"
+    resetBtn.style.display = "block"
+}
+
 // logging out a random number between 1-6 when the rollBtn is clicked
 
 rollBtn.addEventListener("click", function() {
@@ -38,12 +43,10 @@ rollBtn.addEventListener("click", function() {
 
     if (player1Score >= 20) {
         message.textContent = "Player 1 has won! 🥳"
-        rollBtn.style.display = "none"
-        resetBtn.style.display = "block"
+        showDisplayButton()
     } else if (player2Score >= 20) {
         message.textContent = "Player 2 has won! 🎉"
-        rollBtn.style.display = "none"
-        resetBtn.style.display = "block"
+        showDisplayButton()
     }
     
 
