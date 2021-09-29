@@ -2,7 +2,7 @@
 
 A dice game for Scrimba's Front End Dev Career Path.
 
-<img src="images/dice.gif" alt="Clock" width="800"/>
+<img src="images/dice.gif" alt="Dice Game" width="800"/>
 
 The game is live and can be played [here!](https://zenidith.github.io/dice-game/)
 
