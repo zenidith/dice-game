@@ -19,6 +19,7 @@ function showDisplayButton() {
 
 // logging out a random number between 1-6 when the rollBtn is clicked
 
+
 rollBtn.addEventListener("click", function() {
     const randomNumber =  Math.floor(Math.random() * 6) + 1
     console.log(randomNumber)

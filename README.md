@@ -1,5 +1,9 @@
+<h2>Dice Game</h2>
+
 A dice game for Scrimba's Front End Dev Career Path.
+
+<img src="images/dice.gif" alt="Clock" width="800"/>
 
 The game is live and can be played [here!](https://zenidith.github.io/dice-game/)
 
-Happy Coding!
+<h5>Happy Coding!</h5>
