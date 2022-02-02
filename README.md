@@ -6,6 +6,6 @@ A dice game for Scrimba's Front End Dev Career Path.
 <!-- ![Dice Game in action](/images/dice.gif) -->
 
 <br>
-The game is live and can be played [here!](https://zenidith.github.io/dice-game/)
+The game is live and can be played <a href="https://zenidith.github.io/dice-game/" target="_blank">here!</a>
 
 <h5>Happy Coding!</h5>
